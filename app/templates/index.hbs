@@ -1,0 +1,12 @@
+<h1>Welcome to Message Board</h1>
+
+<h2>I hope you get all of your questions answered here!</h2>
+
+<ul>
+  {{#each model as |question|}}
+  <h4>{{question.author}}</h4>
+  <h3>{{question.content}}</h3>
+  <h5>{{question.notes}}</h5>
+</ul>
+
+{{#link-to 'about'}}About{{/link-to}}
