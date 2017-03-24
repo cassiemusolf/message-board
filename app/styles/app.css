@@ -1,16 +1,27 @@
 body {
   font-family: 'Raleway', sans-serif;
   margin-bottom: 50px;
-  background-image: url("/assets/images/bulletin.jpg");
+  background-image: url("/assets/images/linedpaper.jpg");
 }
 
 .welcome {
   margin-bottom: 40px;
-  border: solid black 1px;
+  border: solid red 1px;
   width: 100%;
   padding: 10px;
   text-align: center;
   box-shadow: 1px 3px 3px 1px grey;
+  background-color: white;
+}
+
+.about-page {
+  margin-bottom: 40px;
+  border: solid red 1px;
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 1px 3px 3px 1px grey;
+  background-color: white;
 }
 
 .welcome1 {
@@ -23,7 +34,6 @@ body {
 }
 
 .update-button {
-  /*float: right;*/
   margin-top: 30px;
   margin-left: 20px;
 }
@@ -59,7 +69,8 @@ body {
 }
 
 .each-question {
-  background-color: lightgrey;
+  background-color: white;
+  border: 1px solid black;
   padding: 20px;
   margin-bottom: 30px;
   width: 70%;
@@ -72,13 +83,14 @@ body {
 }
 
 .question-detail {
-  background-color: lightgrey;
+  background-color: white;
   padding: 20px 20px 50px 20px;
   box-shadow: 1px 5px 5px 5px grey;
+  border: 1px black solid;
 }
 
 .answer-form {
-    border: 1px black solid;
+    border: 1px red solid;
     padding: 20px;
     margin-top: 40px;
     width: 70%;
@@ -86,6 +98,7 @@ body {
     box-shadow: 1px 5px 5px 5px grey;
     margin-bottom: 50px;
     text-align: center;
+    background-color: white;
 }
 
 label {
@@ -104,7 +117,7 @@ input{
 }
 
 .question-form {
-    border: 1px black solid;
+    border: 1px red solid;
     padding: 20px;
     margin-top: 40px;
     width: 70%;
@@ -112,6 +125,7 @@ input{
     margin-bottom: 50px;
     text-align: center;
     margin: 30px;
+    background-color: white;
 }
 
 .update-button2 {
@@ -121,6 +135,10 @@ input{
 .new-answer {
   margin-top: 40px;
   margin-left: 20px;
+}
+
+hr {
+  color: black;
 }
 
 /*NavBar*/
