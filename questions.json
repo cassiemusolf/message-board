@@ -1,18 +1,18 @@
 { "questions": [{
-    "author":,
-    "content":,
-    "notes":
+    "author": "Bob",
+    "content": "What is a JSON object?",
+    "notes": "Tell me your thoughts about what it is."
   }, {
-    "author":,
-    "content":,
-    "notes":
+    "author": "Cassie",
+    "content": "What are some of the best hikes in Washington?",
+    "notes": "Intermediate hiker!"
   }, {
-    "author":,
-    "content":,
-    "notes":
+    "author": "Lisa",
+    "content": "When is the best time of year to travel to Costa Rica?",
+    "notes": "Looking for hot weather, little to no rain!"
   }, {
-    "author":,
-    "content":,
-    "notes":
+    "author": "Tommy",
+    "content": "What are some ideas for kids rainy day activities?",
+    "notes": "Grade school aged ideas, 5-12 years old."
   }]
 }
