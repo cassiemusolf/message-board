@@ -6,3 +6,27 @@
 .delete-question {
   float: right;
 }
+.author {
+  font-style: italic;
+}
+
+/*NavBar*/
+.home {
+  width: 40px;
+  margin-top: 1px;
+}
+
+.about-nav {
+  color: black;
+}
+
+.pull-left {
+  margin-left: 20px;
+  border-left: black 1px solid;
+  padding: 0 0 0 20px;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+}
