@@ -1,6 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   margin-bottom: 50px;
+  background-image: url("/assets/images/bulletin.jpg");
 }
 
 .welcome {
@@ -10,24 +11,21 @@ body {
   padding: 10px;
   text-align: center;
   box-shadow: 1px 3px 3px 1px grey;
-  /*margin-top: -100px;
-  z-index: 1;*/
 }
 
 .welcome1 {
-  /*text-shadow: 1px 1px black;*/
   font-size: 50px;
 }
 
 .welcome2 {
   font-style: italic;
   font-size: 25px;
-  /*text-shadow: 1px 1px grey;*/
 }
 
 .update-button {
   /*float: right;*/
-  /*margin-top: -400px;*/
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 .answers {
@@ -40,9 +38,9 @@ body {
 }
 
 .delete-question {
-  /*float: right;*/
-  /*margin-top: -90px;*/
+  float: right;
 }
+
 .author {
   font-style: italic;
   font-size: 25px;
@@ -69,11 +67,14 @@ body {
   box-shadow: 1px 5px 5px 5px grey;
 }
 
+.question-title {
+  font-size: 40px;
+}
+
 .question-detail {
   background-color: lightgrey;
-  padding: 20px;
+  padding: 20px 20px 50px 20px;
   box-shadow: 1px 5px 5px 5px grey;
-
 }
 
 .answer-form {
@@ -84,12 +85,43 @@ body {
     margin-left: 15%;
     box-shadow: 1px 5px 5px 5px grey;
     margin-bottom: 50px;
-  }
+    text-align: center;
+}
 
-  .new-answer {
+label {
+  font-size: 20px;
+}
+
+input{
+  height: 40px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.form-title {
+  margin-bottom: 25px;
+}
+
+.question-form {
+    border: 1px black solid;
+    padding: 20px;
     margin-top: 40px;
-    margin-left: 20px;
-  }
+    width: 70%;
+    box-shadow: 1px 5px 5px 5px grey;
+    margin-bottom: 50px;
+    text-align: center;
+    margin: 30px;
+}
+
+.update-button2 {
+  margin-top: 20px;
+}
+
+.new-answer {
+  margin-top: 40px;
+  margin-left: 20px;
+}
 
 /*NavBar*/
 .home {

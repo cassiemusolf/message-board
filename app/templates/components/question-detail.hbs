@@ -1,9 +1,7 @@
-<h3>{{question.content}}</h3>
-<h3 class="author">{{question.author}}</h3>
-<h4>{{question.notes}}</h4>
+<h3 class="question-title">{{question.content}}</h3>
+<h3 class="author">-- {{question.author}}</h3>
+<h4>Extra Notes: {{question.notes}}</h4>
 <br>
-
-<button class="delete-question btn btn-primary" {{action 'delete' question}}>Delete Question</button>
 
 
 <!-- <h2>Answers</h2> -->
@@ -13,4 +11,5 @@
   <hr>
   {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
   {{/each}}
+  <button class="delete-question btn btn-primary" {{action 'delete' question}}>Delete Question</button>
 </div>
