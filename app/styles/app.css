@@ -90,15 +90,15 @@ body {
 }
 
 .answer-form {
-    border: 1px red solid;
-    padding: 20px;
-    margin-top: 40px;
-    width: 70%;
-    margin-left: 15%;
-    box-shadow: 1px 5px 5px 5px grey;
-    margin-bottom: 50px;
-    text-align: center;
-    background-color: white;
+  border: 1px red solid;
+  padding: 20px;
+  margin-top: 40px;
+  width: 70%;
+  margin-left: 15%;
+  box-shadow: 1px 5px 5px 5px grey;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: white;
 }
 
 label {
@@ -117,15 +117,15 @@ input{
 }
 
 .question-form {
-    border: 1px red solid;
-    padding: 20px;
-    margin-top: 40px;
-    width: 70%;
-    box-shadow: 1px 5px 5px 5px grey;
-    margin-bottom: 50px;
-    text-align: center;
-    margin: 30px;
-    background-color: white;
+  border: 1px red solid;
+  padding: 20px;
+  margin-top: 40px;
+  width: 70%;
+  box-shadow: 1px 5px 5px 5px grey;
+  margin-bottom: 50px;
+  text-align: center;
+  margin: 30px;
+  background-color: white;
 }
 
 .update-button2 {
