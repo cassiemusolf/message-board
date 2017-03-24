@@ -1,6 +1,7 @@
-<h3>{{question.content}}</h3>
-<hr>
-<h3>{{question.author}}</h3>
+<div class="each-question">
 
-
-<h4>{{#link-to 'question' question.id}}View the Answers{{/link-to}}</h4>
+  <h3>{{question.content}}</h3>
+  <hr>
+  <h3 class="author">{{question.author}}</h3>
+  <h4 class="pull-right answers">{{#link-to 'question' question.id}}View Answers{{/link-to}}</h4>
+</div>

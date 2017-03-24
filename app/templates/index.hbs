@@ -1,11 +1,12 @@
-<h1>Welcome to Message Board</h1>
+<div class="welcome">
+  <h1>Welcome to Message Board</h1>
+  <h2>I hope you get all of your questions answered here!</h2>
+</div>
 
-<h2>I hope you get all of your questions answered here!</h2>
-
-<ul>
+<div>
   {{#each model.questions as |question|}}
-    {{question-tile question=question}}
+  {{question-tile question=question}}
   {{/each}}
-</ul>
+</div>
 
 {{new-question saveQuestion="saveQuestion"}}

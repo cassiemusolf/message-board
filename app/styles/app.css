@@ -1,6 +1,17 @@
+.welcome {
+  margin-bottom: 40px;
+  border: solid black 1px;
+  padding: 10px;
+  text-align: center;
+}
+
 .update-button {
   float: right;
   position: relative;
+}
+
+.answers {
+  margin-top: -30px;
 }
 
 .delete-question {
@@ -8,6 +19,15 @@
 }
 .author {
   font-style: italic;
+}
+
+.each-question {
+  background-color: lightgrey;
+  padding: 20px;
+  margin-bottom: 30px;
+  width: 70%;
+  margin-left: 15%;
+  box-shadow: 5px 5px 5px 5px grey;
 }
 
 /*NavBar*/
