@@ -3,7 +3,7 @@
 <h2>I hope you get all of your questions answered here!</h2>
 
 <ul>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
     {{question-tile question=question}}
   {{/each}}
 </ul>

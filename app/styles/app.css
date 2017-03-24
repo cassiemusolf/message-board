@@ -1,0 +1,8 @@
+.update-button {
+  float: right;
+  position: relative;
+}
+
+.delete-question {
+  float: right;
+}
