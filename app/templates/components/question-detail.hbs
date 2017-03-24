@@ -3,12 +3,14 @@
 <h4>{{question.notes}}</h4>
 <br>
 
-<button class="delete-question" {{action 'delete' question}}>Delete Question</button>
+<button class="delete-question btn btn-primary" {{action 'delete' question}}>Delete Question</button>
 
 
-<h2>Answers</h2>
-<ul>
+<!-- <h2>Answers</h2> -->
+<div class="each-answer">
+  <h3 class="answer-title">Answers:</h3>
   {{#each question.answers as |answer|}}
-    {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+  <hr>
+  {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
   {{/each}}
-</ul>
+</div>

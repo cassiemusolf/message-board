@@ -1,6 +1,7 @@
 {{#if addNewAnswer}}
-<h2>Add an Answer</h2>
+
 <div class="answer-form">
+<h2>Add an Answer</h2>
     <form>
       <div class="form-group">
         <label for="author">Author</label>
@@ -14,5 +15,7 @@
     </form>
 </div>
 {{else}}
-<button {{action 'answerFormShow'}}>New Answer</button>
+<div class="new-answer">
+<button class="btn btn-primary" {{action 'answerFormShow'}}>New Answer</button>
+</div>
 {{/if}}

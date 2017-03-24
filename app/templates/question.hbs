@@ -1,8 +1,8 @@
-<h2>Find answers to {{model.author}}'s question!</h2>
+<!-- <h2>Find answers to {{model.author}}'s question!</h2> -->
 
-{{question-detail question=model destroyQuestion="destroyQuestion" destroyAnswer="destroyAnswer"}}
-
-{{update-question question=model update="update"}}
+<div class="question-detail">
+  {{question-detail question=model destroyQuestion="destroyQuestion" destroyAnswer="destroyAnswer"}}
+  {{update-question question=model update="update"}}
+</div>
 
 {{new-answer saveAnswer="saveAnswer" question=model}}
-<br>
